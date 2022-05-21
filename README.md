@@ -1,3 +1,5 @@
 # gitMirror
 
-This utility is used to sync between local git repositories ("local" meaning not necessarily accessible from the open web) to a public facing GitHub repository. Running this script will keep the GitHub up to date as a mirror, while the local git repository is left unaffected. 
+gitMirror is a utility that I use to mirror my local git repositories onto GitHub, where they are publically accessible. 
+
+TODO: update README with usage instructions
