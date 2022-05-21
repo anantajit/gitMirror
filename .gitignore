@@ -1,1 +1,3 @@
 pyGitHub/*
+test/*
+*.api
