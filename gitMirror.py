@@ -6,7 +6,7 @@ from github import Github
 
 args = ""
 
-working_directory = "../test/repos"
+working_directory = "/tmp/repos"
 
 ########
 
@@ -45,7 +45,7 @@ for repository in repo_list_file:
 
     if(not (repo_name in repo_list)):
         print("Creating a new repo on GitHub for " + repo_name)
-        repo = g.get_user().create_repo(repo_name,private=True) # by default, mirrored repositories 
+        repo = g.get_user().create_repo(repo_name,private=True, description=("public mirror for project \"" + repo_name + "\"")) # by default, mirrored repositories 
         # are kept private until mirroring works as intended. The switch to public is not to be 
         # controlled by this utility
 

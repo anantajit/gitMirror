@@ -1,4 +1,4 @@
-pyGitHub/*
+github_venv/*
 test/*
 *.api
 *.config
